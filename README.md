@@ -3,7 +3,7 @@ flow-divide
 
 Transform stream factory to perform scalar division on streamed numeric data values.
 
-Note: this module is provided for semantic convenience. Its functionality is the same as `flow-multiply`, where the `scalar` (divisor) is simply its fractional equivalent; i.e., for scalar multiplication, `scalar = 1/d`, where `d` is the scalar divisor.
+Note: this module is provided for semantic convenience. Its functionality is the same as `flow-multiply`, where the `scalar` (divisor) is simply its fractional equivalent; i.e., for scalar multiplication, `scalar = 1/d`, where `d` is the divisor.
 
 
 ## Installation

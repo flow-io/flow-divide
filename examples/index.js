@@ -11,7 +11,7 @@ for ( var i = 0; i < data.length; i++ ) {
 var readStream = eventStream.readArray( data );
 
 // Create a new scalar division stream:
-var stream = mStream()
+var stream = dStream()
 	.divisor( 10 )
 	.stream();
 
